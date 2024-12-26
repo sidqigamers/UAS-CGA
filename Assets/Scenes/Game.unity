@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 21258030}
   - component: {fileID: 21258029}
   - component: {fileID: 21258028}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (38)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 36596677}
   - component: {fileID: 36596676}
   - component: {fileID: 36596675}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (1)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -449,7 +449,7 @@ GameObject:
   - component: {fileID: 81184123}
   - component: {fileID: 81184122}
   - component: {fileID: 81184121}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (5)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -542,6 +542,74 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 81184119}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &131187266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 131187269}
+  - component: {fileID: 131187268}
+  - component: {fileID: 131187267}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &131187267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131187266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &131187268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131187266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &131187269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131187266}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &141821381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -721,7 +789,7 @@ GameObject:
   - component: {fileID: 148015033}
   - component: {fileID: 148015032}
   - component: {fileID: 148015031}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (21)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -826,7 +894,7 @@ GameObject:
   - component: {fileID: 158221822}
   - component: {fileID: 158221821}
   - component: {fileID: 158221820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (34)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -931,7 +999,7 @@ GameObject:
   - component: {fileID: 159068554}
   - component: {fileID: 159068553}
   - component: {fileID: 159068552}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (32)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1036,7 +1104,7 @@ GameObject:
   - component: {fileID: 187629402}
   - component: {fileID: 187629401}
   - component: {fileID: 187629400}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (8)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1141,7 +1209,7 @@ GameObject:
   - component: {fileID: 188232071}
   - component: {fileID: 188232070}
   - component: {fileID: 188232069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (16)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1246,7 +1314,7 @@ GameObject:
   - component: {fileID: 205382367}
   - component: {fileID: 205382366}
   - component: {fileID: 205382365}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (45)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -1573,7 +1641,7 @@ GameObject:
   - component: {fileID: 291311457}
   - component: {fileID: 291311456}
   - component: {fileID: 291311455}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (26)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2035,10 +2103,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bd8ffa16d817be4bad533723d48a0b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  globalManager: {fileID: 1505589772}
   playerNumber: 2
   moveSpeed: 4
   canDropBombs: 1
   canMove: 1
+  dead: 0
   bombPrefab: {fileID: 124052, guid: 6291891f72f724c4eae6be6052e78735, type: 3}
 --- !u!54 &373202947
 Rigidbody:
@@ -2079,7 +2149,7 @@ GameObject:
   - component: {fileID: 399242212}
   - component: {fileID: 399242211}
   - component: {fileID: 399242210}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (17)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2394,7 +2464,7 @@ GameObject:
   - component: {fileID: 423682031}
   - component: {fileID: 423682030}
   - component: {fileID: 423682029}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (40)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2709,7 +2779,7 @@ GameObject:
   - component: {fileID: 434058329}
   - component: {fileID: 434058328}
   - component: {fileID: 434058327}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2814,7 +2884,7 @@ GameObject:
   - component: {fileID: 496134135}
   - component: {fileID: 496134134}
   - component: {fileID: 496134133}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (6)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -2919,7 +2989,7 @@ GameObject:
   - component: {fileID: 504716744}
   - component: {fileID: 504716743}
   - component: {fileID: 504716742}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (44)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3024,7 +3094,7 @@ GameObject:
   - component: {fileID: 504751924}
   - component: {fileID: 504751923}
   - component: {fileID: 504751922}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (25)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3234,7 +3304,7 @@ GameObject:
   - component: {fileID: 531192821}
   - component: {fileID: 531192820}
   - component: {fileID: 531192819}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (13)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3549,7 +3619,7 @@ GameObject:
   - component: {fileID: 557995376}
   - component: {fileID: 557995375}
   - component: {fileID: 557995374}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (36)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3654,7 +3724,7 @@ GameObject:
   - component: {fileID: 571930958}
   - component: {fileID: 571930957}
   - component: {fileID: 571930956}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (31)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -3759,7 +3829,7 @@ GameObject:
   - component: {fileID: 688057359}
   - component: {fileID: 688057358}
   - component: {fileID: 688057357}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (27)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4284,7 +4354,7 @@ GameObject:
   - component: {fileID: 755977463}
   - component: {fileID: 755977462}
   - component: {fileID: 755977461}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (41)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4599,7 +4669,7 @@ GameObject:
   - component: {fileID: 820116955}
   - component: {fileID: 820116954}
   - component: {fileID: 820116953}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (2)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -4914,7 +4984,7 @@ GameObject:
   - component: {fileID: 894726075}
   - component: {fileID: 894726074}
   - component: {fileID: 894726073}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (19)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5544,7 +5614,7 @@ GameObject:
   - component: {fileID: 969923551}
   - component: {fileID: 969923550}
   - component: {fileID: 969923549}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (22)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5649,7 +5719,7 @@ GameObject:
   - component: {fileID: 983689871}
   - component: {fileID: 983689870}
   - component: {fileID: 983689869}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (33)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -5859,7 +5929,7 @@ GameObject:
   - component: {fileID: 1011588709}
   - component: {fileID: 1011588708}
   - component: {fileID: 1011588707}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (28)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6026,7 +6096,7 @@ GameObject:
   - component: {fileID: 1044831119}
   - component: {fileID: 1044831118}
   - component: {fileID: 1044831117}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (46)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6131,7 +6201,7 @@ GameObject:
   - component: {fileID: 1052944391}
   - component: {fileID: 1052944390}
   - component: {fileID: 1052944389}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (3)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6236,7 +6306,7 @@ GameObject:
   - component: {fileID: 1074860903}
   - component: {fileID: 1074860902}
   - component: {fileID: 1074860901}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (23)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6551,7 +6621,7 @@ GameObject:
   - component: {fileID: 1144909680}
   - component: {fileID: 1144909679}
   - component: {fileID: 1144909678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (35)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -6656,7 +6726,7 @@ GameObject:
   - component: {fileID: 1188386076}
   - component: {fileID: 1188386075}
   - component: {fileID: 1188386074}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (43)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7076,7 +7146,7 @@ GameObject:
   - component: {fileID: 1230750106}
   - component: {fileID: 1230750105}
   - component: {fileID: 1230750104}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (20)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7181,7 +7251,7 @@ GameObject:
   - component: {fileID: 1277250431}
   - component: {fileID: 1277250430}
   - component: {fileID: 1277250429}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (7)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7516,7 +7586,7 @@ GameObject:
   - component: {fileID: 1306608937}
   - component: {fileID: 1306608936}
   - component: {fileID: 1306608935}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (11)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -7831,7 +7901,7 @@ GameObject:
   - component: {fileID: 1321686222}
   - component: {fileID: 1321686221}
   - component: {fileID: 1321686220}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (42)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8041,7 +8111,7 @@ GameObject:
   - component: {fileID: 1344142143}
   - component: {fileID: 1344142142}
   - component: {fileID: 1344142141}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (18)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8881,7 +8951,7 @@ GameObject:
   - component: {fileID: 1440208306}
   - component: {fileID: 1440208305}
   - component: {fileID: 1440208304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (12)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -8986,7 +9056,7 @@ GameObject:
   - component: {fileID: 1459348265}
   - component: {fileID: 1459348264}
   - component: {fileID: 1459348263}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (37)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9091,7 +9161,7 @@ GameObject:
   - component: {fileID: 1471538712}
   - component: {fileID: 1471538711}
   - component: {fileID: 1471538710}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (14)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9406,7 +9476,7 @@ GameObject:
   - component: {fileID: 1504455019}
   - component: {fileID: 1504455018}
   - component: {fileID: 1504455017}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (30)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -9660,7 +9730,7 @@ GameObject:
   - component: {fileID: 1623141454}
   - component: {fileID: 1623141453}
   - component: {fileID: 1623141452}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (9)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -10208,7 +10278,7 @@ GameObject:
   - component: {fileID: 1749949449}
   - component: {fileID: 1749949448}
   - component: {fileID: 1749949447}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (15)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -10418,7 +10488,7 @@ GameObject:
   - component: {fileID: 1819047279}
   - component: {fileID: 1819047278}
   - component: {fileID: 1819047277}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (29)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -10565,10 +10635,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bd8ffa16d817be4bad533723d48a0b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  globalManager: {fileID: 1505589772}
   playerNumber: 1
   moveSpeed: 4
   canDropBombs: 1
   canMove: 1
+  dead: 0
   bombPrefab: {fileID: 124052, guid: 6291891f72f724c4eae6be6052e78735, type: 3}
 --- !u!54 &1836066459
 Rigidbody:
@@ -10832,7 +10904,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1927819935}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Blocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11006,7 +11078,7 @@ GameObject:
   - component: {fileID: 1968256082}
   - component: {fileID: 1968256081}
   - component: {fileID: 1968256080}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (39)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -11111,7 +11183,7 @@ GameObject:
   - component: {fileID: 2029932280}
   - component: {fileID: 2029932279}
   - component: {fileID: 2029932278}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (4)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -11447,6 +11519,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069427373}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2076201404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2076201406}
+  - component: {fileID: 2076201405}
+  m_Layer: 0
+  m_Name: Play
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2076201405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076201404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60a09439725849648abc6372f644998c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2076201406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076201404}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 240.2626, y: 181.0891, z: -12.414413}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2081672209
 GameObject:
   m_ObjectHideFlags: 0
@@ -11564,7 +11680,7 @@ GameObject:
   - component: {fileID: 2127419913}
   - component: {fileID: 2127419912}
   - component: {fileID: 2127419911}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (24)
   m_TagString: Block
   m_Icon: {fileID: 0}
@@ -11878,3 +11994,5 @@ SceneRoots:
   - {fileID: 1836066460}
   - {fileID: 206126216}
   - {fileID: 1640441413}
+  - {fileID: 131187269}
+  - {fileID: 2076201406}

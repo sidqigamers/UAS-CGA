@@ -225,6 +225,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 177540, guid: a346213d30ee37d49a68cb6677873aeb, type: 3}
+  levelMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &127508
 GameObject:
   m_ObjectHideFlags: 0

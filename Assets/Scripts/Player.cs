@@ -5,11 +5,12 @@ using System;
 public class Player : MonoBehaviour
 {
 
-    [Range (1, 2)] 
+    public GlobalStateManager globalManager;
     public int playerNumber = 1;
     public float moveSpeed = 5f;
     public bool canDropBombs = true;
     public bool canMove = true;
+    public bool dead = false;
 
     private int bombs = 2;
     
@@ -54,9 +55,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Updates Player 1's movement and facing rotation using the WASD keys and drops bombs using Space
-    /// </summary>
+    ///Player 1's movement and facing rotation using the WASD keys and drops bombs using Space
     private void UpdatePlayer1Movement ()
     {
         if (Input.GetKey (KeyCode.W))
@@ -93,9 +92,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Updates Player 2's movement and facing rotation using the arrow keys and drops bombs using Enter or Return
-    /// </summary>
+    ///Player 2's movement and facing rotation using the arrow keys and drops bombs using Enter or Return
     private void UpdatePlayer2Movement ()
     {
         if (Input.GetKey (KeyCode.UpArrow))
@@ -133,9 +130,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    /// <summary>
     /// Drops a bomb beneath the player
-    /// </summary>
     private void DropBomb ()
     {
         if (bombPrefab)
@@ -151,6 +146,9 @@ public class Player : MonoBehaviour
         if (other.CompareTag ("Explosion"))
         {
             Debug.Log ("P" + playerNumber + " hit by explosion!");
+            dead = true;
+            globalManager.PlayerDied(playerNumber);
+            Destroy(gameObject);
         }
     }
 }
